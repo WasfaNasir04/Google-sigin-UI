@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+header{
+    
+    height: 83px;;
+    background:rgb(74, 104, 165);    
+}
+.logo
+{
+    width: 60%;
+    float: left;
+}
+.logo img{   
+    height: 65px;
+    padding-top: 18px;
+    padding-bottom: 20px;
+}
+.header-part label{
+    color :rgb(255, 255, 255);
+}
+.login-email{
+    padding-top: 18px;
+    padding-bottom: 20px;
+    float: left;
+    margin-left: -150px;
+}
+.login-email input[type="text"]{
+    height:20px;
+    width:160px;
+    border:1px solid rgb(29,42,91);
+}
+.login-email label{
+    padding-bottom: 12px;
+    font-size: 12px;
+}
+.login-password{
+    padding-top: 18px;
+    padding-bottom: 20px;
+    float: left;
+    margin-left:18px;
+}
+.login-password input[type="password"]{
+    height:20px;
+    width:160px;
+    border:1px solid rgb(29,42,91);
+}
+.login-password a{
+    color:rgb(143,177,216);
+    text-decoration: none;
+    font-size: 12px;
+}
+.login-password label{
+    padding-bottom: 12px;
+    font-size: 12px;
+    
+}
+.Login{
+    padding-top: 15px;
+    padding-bottom: 20px;
+    float: left; 
+    margin-top:20px;
+    margin-left:20px;
+}
+.Login input[type="submit"]{
+    background: rgb(66,103,178);
+    color:rgb(255,255,255);
+    border-radius:2px;
+    border:1px solid rgb(41,72,125);
+    height:25px;
+    width:50px;
+}
+.clearfix{
+    clear:both;
+}
+
+.content-block{
+
+    width:500px;
+    margin:20px;
+}
+.facebook-connect{
+    margin-top:2px;
+    float:left;
+    width:110%;   
+}
+.facebook-connect p{
+    color:rgb(18, 45, 98);
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 2px;
+}
+.facebook-connect img{
+    margin-top: 5px;
+}
+.create-account{
+    float:left;
+    width:50%;
+    padding-left:80px;
+     
+}
+.content-container{
+    background: linear-gradient(#fff, #dcdde4);
+    overflow:hidden;
+    
+}
+.create-account h2{
+    font-size: 38px;
+    padding-bottom:8px ;
+   
+}
+.create-account .free{
+    font-size: 20px;
+    padding-bottom:18px ;
+}
+.account input[type='text'] {
+    padding:10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    border-radius: 4px;
+    margin-left: 0px;
+    border:1px solid rgb(163, 177, 173);
+}
+.account .mobile{
+    width:60% ;
+}
+.account input[type='password'] {
+    
+    padding:10px;
+    margin-bottom: 14px;
+    font-size: 15px;
+    border-radius: 4px;
+    margin-left: 0px;
+    width:60% ;
+    border:1px solid rgb(163, 177, 173);
+}
+
+.account h3{
+    font-size: 18px;
+    padding-bottom:5px ;
+    font-weight: lighter;
+}
+
+.account a{
+    text-decoration: none;
+    color:#3677bc;
+}
+
+.account input[type='radio'] {
+   
+    margin-top:15px;
+    margin-bottom:15px;
+    margin-left: 6px;
+    border: 1px solid rgb(165, 175, 172); 
+	
+}
+.account label{
+    font-size: 18px;
+}
+
+.account input[type='date']{
+    padding:10px;
+    margin-bottom: 5px;
+    font-size: 13px; 
+    margin-left: 0px;
+    width:23% ;
+    border:1px solid rgb(163, 177, 173);
+}
+.account .why{
+    font-size: 12px;
+    color: rgb(60, 79, 148);
+    margin-left: 7px;
+}
+
+.account .last{
+    font-size: 12px;
+    color: rgb(88, 92, 91);
+}
+.account input[type='submit']{
+    background: linear-gradient(#95d67c, #65a953);
+    color:rgb(255,255,255);
+    font-weight: bold;
+    font-size: 17px;
+    border-radius:5px;
+    border:1px solid rgba(33, 34, 37, 0.459);
+    height:37px;
+    width:27%;
+    margin-top: 12px;
+    margin-bottom: 39px;
+}
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+}
+
+
+

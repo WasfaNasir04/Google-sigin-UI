@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Facebook Login</title>
+        <link rel ="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <div class ="header-part">
+                <div class="logo">
+                    <img src="New-Facebook-Logo.jpg" alt="Facebook"/>
+                </div>
+                <div class="login">
+                    <div class ="login-email">
+                        <label for="emailorph">Email or Phone</label><br>
+                        <input type="text" id="emailorph" name="emailorph"/><br>
+                    </div>
+
+                    <div class ="login-password">
+                        <label for="pwd">Password</label><br>
+                        <input type="password" id="pwd" name="pwd"/><br>
+                        <a href="#">Forgotten account?</a>
+                    </div>
+                    <div class="Login">
+                        <input type="submit" value="Log In"/>
+                    </div>   
+                </div>
+            </div>
+                    
+        </header>
+        
+        <div class="content-container clearfix">
+            <div class="content-block clearfix">
+                <div class="facebook-connect">
+                    <h2><p>Facebook helps you connect and share with the<br> people in your life</p></h2>
+                    <img src="facebook.jfif" alt="Facebook Connect"/>
+                </div> 
+            </div>
+                <div class="create-account">
+                    <h2>Create an account</h2>
+                    <p class="free">It's free and always will be.</p>
+                    <div class="account">
+                        <form action="/action_page.php">
+                            <input type="text" name="Fname" placeholder="First name" required/>
+                            <input type="text" name="Sname" placeholder="Surame" required/><br>
+                            <input class="mobile" type="text" name="MobileorEmail" placeholder="Mobile number or email address" required/><br>
+                            <input type="password" id="psd" name="psd" placeholder="New password" required/><br>
+                            <h3>Birthday</h3><input type="date" id="birthday" name="birthday"><span class="why">Why do I need to provide my date of birth?<br></span>
+                            <input type="radio" id="FF" name="gender" value="Female">
+                            <label for="Female">Female</label>
+                            <input type="radio" id="MM" name="gender" value="Male">
+                            <label for="Male">Male</label><br>
+                            <span class="last">By clicking Sign Up,you agree to our <a href="#">Terms</a>, <a href="#">Data Policy</a> and
+                            <br><a href="#">Cookie Policy</a>. You may recieve SMS notification from us and
+                            <br>can opt out at any time.<br></span>
+                            <input type="submit" value="Sign Up"/>
+                        </form>
+                    </div><!--account-->
+                </div><!--create account-->
+        </div><!--content container-->
+    </body>
+</html>
